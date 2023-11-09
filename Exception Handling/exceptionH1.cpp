@@ -18,7 +18,7 @@ int main(){
         }
     }
 
-    catch(int i) // i--> x ko value auxa;
+    catch(int i) 
     {
         cout<<"Exception caught: x="<<i<<endl;
     }

@@ -1,7 +1,0 @@
-When base classs and derived class have destructors then to clean off object both the destructors from
-base and derived class should be called.
-
-If the base class pointer object is pointing to derived class object and if the base class destructor is non
-virtual and if we delete base class pointer object by using delete operator then only the destructor of
-base class is called. So in order to call destructors from both base class and derived class, the base class
-destructor should be made virtual.

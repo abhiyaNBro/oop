@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    cout.width(4); //right justification hune gare print
+    cout.width(4); 
     cout<<"A";
     cout<<endl;
     cout.width(4);

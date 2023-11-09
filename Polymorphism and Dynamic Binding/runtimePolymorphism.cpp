@@ -5,8 +5,7 @@ using namespace std;
 
 class Animal{
     public:
-    virtual void display(){ //yedi virtual nahune bhaye, Animal class ko pointer obj le derived calss 
-    //ko object lai point matra garna milthyo tara access garna mildaina thiyo. so virtual keyword needed.
+    virtual void display(){ 
         cout<<"We are in Animal Class"<<endl;
 
     }
@@ -14,7 +13,7 @@ class Animal{
 
 class Cow : public Animal{
     public:
-    void display(){ //virtual keyword derived class ma use na garey pani hunxa.
+    void display(){ 
         cout<<"We are in Cow Class"<<endl;
 
     }
@@ -28,7 +27,7 @@ class Dog: public Animal{
 };
 
 int main(){
-    Animal *ptr; //animal class ko pointer obj create
+    Animal *ptr; 
     Animal a;
     Cow c;
     Dog d; //normal object 

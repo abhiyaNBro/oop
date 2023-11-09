@@ -1,5 +1,4 @@
-//  Program Showing Conversion of Object of Type Polar to Object of Type Cartesian Using One Argument Parameterised Constructor
-// One parameterized const use --> tyo destination class ma present hunu parxa.
+
 
 #include<iostream>
 using namespace std;

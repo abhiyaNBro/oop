@@ -1,5 +1,4 @@
-//c2=9*c1: --> yesto case ma friend fn compulsary use garnu parxa.
-// c2=5+c1. --> jaba operand ko LHS ma object hudaina. tyo case ma friend fn use.
+
 
 #include<iostream>
 using namespace std;

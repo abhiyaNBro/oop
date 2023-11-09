@@ -1,6 +1,6 @@
 // Program Showing Conversion of Object of Type Polar to Object of Type Cartesian Using Casting Operator Function
 
-// casting fn use --> casting operator source ma present hunu parxa.
+
 
 #include<iostream>
 using namespace std;

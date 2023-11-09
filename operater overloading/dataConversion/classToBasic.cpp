@@ -1,5 +1,4 @@
-// class to basic convert garda --> casting operator fn use garnu parxa. 
-// jasko return type hudaina ra kunai argument lidaina tara return garxa. 
+
 
 //--> program to convert from celsius to fahrenheit
 

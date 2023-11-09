@@ -20,8 +20,8 @@ class Complex{
 
     Complex addCmplx(Complex cc1){
         Complex c;
-        c.real=cc1.real+real;//jasle call garxa, tesko real part=real
-        c.imag=cc1.imag+imag;//jasle call garxa, tesko imag part=imag
+        c.real=cc1.real+real;
+        c.imag=cc1.imag+imag;
         return c;
     }
 

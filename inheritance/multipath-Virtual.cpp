@@ -57,7 +57,7 @@ class Result: public Test, public Sports{
     public:
 
     void display(){
-        showStudent(); //virtual narakhya bhaye, yo ambigious hunthiyo cause, student bata 2ta class derive bhako xa, test ra sports ra yeni haru dubai sanga showStudent bhanne function pani inherit hunxa. so aba derived calss bata call garda, kun chai base class ko showStudent lai call gareko bhanne kura ambigious hunxa.
+        showStudent(); 
         showMark();
         showScore();
         cout<<"The total mark is : "<<sub1+sub2+score<<endl;
@@ -68,7 +68,7 @@ class Result: public Test, public Sports{
 int main(){
     Result R;
 
-    R.getSudent(); //virtual narakhya bhaye, yo pani ambigious hunthiyo
+    R.getSudent(); 
     R.getMark();
     R.getScore();
 

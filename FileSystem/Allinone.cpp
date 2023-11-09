@@ -4,7 +4,7 @@ using namespace std;
 #include<string>
 
 
-// output mode -> write garne...input mode -> read garne.
+// output mode -> write ..input mode -> read .
 
 class Student{
     char name[50], faculty[20];
