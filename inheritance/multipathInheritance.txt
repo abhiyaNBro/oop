@@ -1,0 +1,14 @@
+When two or more than two derived classes are formed from a single base class and again these derived classes
+re combined as base to another derived class then this type of inheritance is called multipath inheritance.
+
+
+From above figure, we see that the properties of grandparent is inherited to parent 1 and parent 2 and parent 1
+and parent 2 are combined as a base to a derived class child. Due to this, the properties of grandparents will be a
+duplicate copy to a derived class child via parent 1 and parent 2.
+
+
+Sometimes the duplicate copy of properties of grandparents in child class might cause problems so in order to
+solve this problem we make ancestor base class or common base class as virtual during inheritance of parent I and
+parent 2 . 
+
+Sometimes this type of inheritance is called virtual inheritance.
